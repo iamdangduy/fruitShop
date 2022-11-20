@@ -21,6 +21,7 @@ function App() {
           <Provider>
             <Navbar />
             <Routes>
+              <h1>Nguyễn Đăng Duy</h1>
               <Route path="/" element={<HomePage />} />
               <Route path="/index.html" element={<HomePage />} />
               <Route path="/shop" element={<GridList />} />
